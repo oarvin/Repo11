@@ -1,4 +1,4 @@
-function multuplyArrayFunction(myArray){
+function multiplyArrayFunction(myArray){
     var product = 1;
     var sum = 0;
     
@@ -14,13 +14,13 @@ function multuplyArrayFunction(myArray){
 
 }
 
-console.log(multuplyArrayFunction([
+console.log(multiplyArrayFunction([
     [2],
     [5,6,7],
     [8,9]
 ]));
 
-console.log(multuplyArrayFunction([
+console.log(multiplyArrayFunction([
     
     [2.5, 2],
     [0.5, 0.2],
@@ -28,11 +28,11 @@ console.log(multuplyArrayFunction([
     
 ]));
 
-console.log(multuplyArrayFunction([
+console.log(multiplyArrayFunction([
     [1, 2],
     [3, 4, 5, 6],
     [7, 8, 9]
 ]));
 
 
-module.exports = multuplyArrayFunction;
+module.exports = multiplyArrayFunction;
