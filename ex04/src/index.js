@@ -10,5 +10,5 @@ function myMonitorsFunction(arr) {
     return monitorsList;
 }
 
-console.log(myMonitorsFunction(monitorsListArray));
+console.log(myMonitorsFunction(monitorsList));
 module.exports = myMonitorsFunction;
